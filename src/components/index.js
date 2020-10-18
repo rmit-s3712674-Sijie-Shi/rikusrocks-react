@@ -1,9 +1,10 @@
 import React from "react";
+import Header from './common/header'
 let Index = () => {
     return(
         <>
         <div>
-            'hello this is Rocky'
+            <Header/>
         </div>
         </>
     )
