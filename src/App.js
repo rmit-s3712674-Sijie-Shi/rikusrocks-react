@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch, HashRouter  } from 'react-router-dom'
 import Index from './components/index'
 import EducationPage from './components/educationPage'
 import ProjectPage from './components/projectPage'
@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <HashRouter >
       <Switch>
         <Route
           exact
@@ -30,7 +30,7 @@ function App() {
         path='/contect'
         render={ () => <Contect/>}/>
       </Switch>
-    </Router>
+    </HashRouter >
   );
 }
 

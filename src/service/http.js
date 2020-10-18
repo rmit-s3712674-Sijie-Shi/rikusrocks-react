@@ -10,7 +10,7 @@ export default class Http {
         let options = {
             method: 'POST',
             data: data,
-            url: 'http://localhost:3005/email'
+            url: 'https://lit-crag-36578.herokuapp.com/email'
         }
         try {
             await axios(options)
