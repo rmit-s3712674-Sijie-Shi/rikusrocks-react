@@ -6,7 +6,7 @@ let Description = () => {
         <section class="services-sec">
         <div class="container">
             <h2>How Can I Help You</h2>
-            <h5>With full prepared skills of both frontend and backend</h5>
+            <h5>With fully prepared skills of both frontend and backend</h5>
             <div class="row">
                 <div class="col-md-6 skill-item">
                     <span><i class="fas fa-desktop"></i> </span>
