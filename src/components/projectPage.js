@@ -8,9 +8,9 @@ let ProjectPage = () => {
         <Banner/>
         <section class="portfolio-section ">
         <div class="main-container section-padding">
-            <h2>Here is My Project</h2>
-
-            <a className='project' href={'https://safe-beach-67493.herokuapp.com/'}><img src={require('../images/project.png')}/></a>
+            <h2>Here are My Projects</h2>
+            <div className='text'>1receipt website(with React js and Node js)</div>
+            <div className='d' href={'https://safe-beach-67493.herokuapp.com/'}><img src={require('../images/project.png')}/></div>
             <ul>
                 <li style={{ paddingTop:'20px'}}>
                 <h3>*Notice that this project still under process, it doesn't reflect the finnal result</h3>
@@ -20,6 +20,8 @@ let ProjectPage = () => {
                 </li>
             </ul>
             
+            <div className='text'>Git repository of this website(with React js and Node js)</div>
+            <div className='d' href={'https://github.com/rmit-s3712674-Sijie-Shi/nodePersonal'}><img src={require('../images/git.png')}></img></div>
             
 
         </div>
