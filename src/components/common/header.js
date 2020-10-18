@@ -6,7 +6,7 @@ let Header = () => {
             <header>
                 <div class="container">
                     <div className ='singnature'>
-                        <img src={require('../../images/signature.PNG')}/>
+                        <img src={require('../../images/signature.png')}/>
                     </div>
                     <div class="share-sec">
                         <ul>
