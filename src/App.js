@@ -2,7 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Index from './components/index'
-import Education from './components/education'
+import EducationPage from './components/educationPage'
+import ProjectPage from './components/projectPage'
 import './App.css';
 
 function App() {
@@ -16,10 +17,13 @@ function App() {
         />
         <Route
           exact
-          path='education'
-          render={ () => <Education/> }
+          path='/education'
+          render={ () => <EducationPage/> }
         />
-
+        <Route
+        exact
+        path='/project'
+        render={ () => <ProjectPage/>}/>
       </Switch>
     </Router>
   );

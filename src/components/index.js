@@ -1,10 +1,10 @@
 import React from "react";
 import Header from './common/header'
 import Banner from './common/banner'
-import Skill from './skill'
-import Description from "./description";
-import Experience from "./experience";
-import Education from "./education";
+import Skill from './common/skill'
+import Description from "./common/description";
+import Experience from "./common/experience";
+import Education from "./common/education";
 
 
 

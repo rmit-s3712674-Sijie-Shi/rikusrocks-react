@@ -2,10 +2,10 @@ import React from "react";
 let Education = () => {
     return(
         <>
-        <section class="experinece education" style={{background:`url(${require('../images/education.jpg')})`, backgroundRepeat : 'no-repeat'}}>
+        <section class="experinece education" style={{background:`url(${require('../../images/education.jpg')})`, backgroundRepeat : 'no-repeat'}}>
         <div class="container">
             <div class=" col-md-7 col-sm-8">
-                <h2>My Education</h2>
+                <h2>Education Experinece</h2>
                 <h5>Here are my education experinece.</h5>
                 <ul>
                     <li>

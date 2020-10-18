@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 let Banner = (props) => {
     return (
         <>
@@ -6,17 +7,29 @@ let Banner = (props) => {
                 <div class="container">
                     <div class="menu-bar">
                         <ul>
-                            <li class="active">
-                                <a href="blog-single.html">About </a>
+                            <li>
+                            <Link
+                                to={{
+                                    pathname:'/'
+                                }}
+                                >About</Link>
                             </li>
                             <li>
-                                <a href="portipolio.html">projects</a>
+                            <Link
+                                to={{
+                                    pathname:'/project'
+                                }}
+                                >Project</Link>
                             </li>
                             <li>
-                                <a href="education.html">education</a>
+                                <Link
+                                to={{
+                                    pathname:'/education'
+                                }}
+                                >Education</Link>
                             </li>
                             <li>
-                                <a href="#contact-sec">contact</a>
+                                <a href="#contact-sec">Contact</a>
                             </li>
                         </ul>
                     </div>

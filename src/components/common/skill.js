@@ -3,7 +3,7 @@ import React from 'react'
 let Skill = () => {
     return(
         <>
-        <section class="skills-sec" style={{background:`url(${require('../images/skills.jpg')})`}}>
+        <section class="skills-sec" style={{background:`url(${require('../../images/skills.jpg')})`}}>
         <div class="container">
             <h2>My Skills & Abilities</h2>
             <h5>These are some of my main skills of programming. As a junior developer, I have had experience of developing both frontend and backend projects.</h5>

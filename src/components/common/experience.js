@@ -3,7 +3,7 @@ import React from 'react'
 let experience = () =>{
     return(
         <>
-        <section class="experinece" style={{background:`url(${require('../images/exp.jpg')})`, backgroundRepeat : 'no-repeat'}}>
+        <section class="experinece" style={{background:`url(${require('../../images/exp.jpg')})`, backgroundRepeat : 'no-repeat'}}>
         <div class="container">
             <div class="offset-md-5 offset-sm-4 col-md-7 col-sm-8">
                 <h2>My Experience</h2>
