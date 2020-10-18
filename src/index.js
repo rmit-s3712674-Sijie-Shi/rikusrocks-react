@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import './css/bootstrap.min.css'
 import './css/jquery.bsPhotoGallery.css'
 import './css/style.css'
+import './css/index/style.css'
 import './js/all'
 import './js/custom'
 import './js/fontawesome-all'

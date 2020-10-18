@@ -5,23 +5,26 @@ let Header = () => {
         <>
             <header>
                 <div class="container">
+                    <div className ='singnature'>
+                        <img src={require('../../images/signature.PNG')}/>
+                    </div>
                     <div class="share-sec">
                         <ul>
                             <li>
-                                <a href=""> <span class="fab fa-facebook"></span></a>
+                                <a href="https://space.bilibili.com/165825" style={{  }}> <img src={require('../../images/bilibili.png')}></img></a>
                             </li>
                             <li>
-                                <a href=""> <span class="fab fa-instagram"></span></a>
+                                <a href=""> <span class="fab fa-linkedin-in"></span></a>
                             </li>
                             <li>
-                                <a href=""> <span class="fab fa-twitter"></span></a>
-                            </li>
-                            <li>
-                                <a href=""> <span class="fab fa-pinterest"></span></a>
+                                <a href=""> <span class="fab fa-git"></span></a>
                             </li>
                         </ul>
                     </div>
-                    <a href="#" class="download-sec right">Download Resume</a>
+                    {/* <img className='rocky' src={require('../../images/rocky.PNG')}/> */}
+                    <a href="#" className="download-sec">Download Resume</a>
+
+                <img className='profile-img' src={require('../../images/avatar.png')} alt="img" />
 
                 </div>
             </header>

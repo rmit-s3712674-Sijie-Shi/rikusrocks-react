@@ -447,7 +447,7 @@ import jQuery from 'jquery'
 
     option : function( opts ){
       // change options AFTER initialization:
-      // signature: $('#foo').bar({ cool:false });
+      signature: $('#foo').bar({ cool:false });
       if ( $.isPlainObject( opts ) ){
         this.options = $.extend( true, this.options, opts );
 

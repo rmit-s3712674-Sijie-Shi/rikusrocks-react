@@ -171,7 +171,8 @@ a {
 }
 
 .right {
-    float: right;
+float: right;
+
 }
 
 section {
@@ -209,10 +210,10 @@ header {background: #000000;height: 380px;padding: 60px 0 200px;position: relati
     -ms-transform: scale(1.1);
 }
 .tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
-.download-sec{background: #fd4733;color: #fff;padding: 10px 30px 9px;font-size: 14px;border-radius: 30px;border: 2px solid #fd4733;transition:all 0.4s;}
+.download-sec{background: #fd4733;color: #fff;padding: 10px 10px 9px;font-size: 14px;border-radius: 30px;border: 2px solid #fd4733;transition:all 0.4s; position: absolute; left: 75%;}
 .download-sec:hover {background: #fff;color: #fd4733;text-decoration: none; }
 
-.profile-img {width: 360px;height: 360px;background: #000;border-radius: 50%;    overflow: hidden;margin:0 auto;    text-align: center;margin-bottom: -180px;position: absolute;left: 50%;margin-left: -180px;}
+.profile-img {width: 300px;height: 300px;background: #000;border-radius: 50%;    overflow: hidden;margin:0 auto;    text-align: center;margin-bottom: -180px;position: absolute;left: 50%;margin-left: -180px;}
 .profile-img img {    border-radius: 50%;margin-top: 30px;}
 .banner-sec{text-align: center;padding-top: 200px;    padding-bottom: 60px;}
 .banner-sec h2{font-size: 56px;line-height: 67px;color: #959595;letter-spacing: -0.4px;margin-bottom: 60px;    padding: 0 20px;}
@@ -693,9 +694,9 @@ a.bsp-controls.next {width: 40px;
             .left-sec{    border-right: 0px solid #000;}
             .left-sec{text-align: left;}
             .left-sec .icon-sec{left: 0;}
-            .singnature{width: 200px;margin: 0 auto;margin-bottom: 30px;}
+            .singnature{width: 300px;margin: 0 auto;margin-bottom: 30px;}
             .singnature img{max-width: 100%;}
-            .profile-img{    width: 160px;height: 160px; bottom: -40px;margin: 0 auto;margin-left: -80px;}
+            .profile-img{    width: 120px;height: 120px; bottom: -40px;margin: 0 auto;margin-left: -58px;}
             .banner-sec{padding-top: 100px;}
             .banner-sec h2 {font-size: 24px;line-height: 36px;}
             .skills-sec{    padding: 60px 0 30px;}
@@ -766,8 +767,8 @@ a.bsp-controls.next {width: 40px;
           @media only screen and (max-width: 480px) {
                 .share-sec{float: initial;display:inline-block;margin: 0 auto;text-align: center;}
                 header {text-align: center;}
-                .download-sec{float: initial;    float: initial;
-                clear: both;display: inline-block;margin-top: 20px;}
+                .download-sec{ position: absolute; left: 35%;;
+                clear: both;display: inline-block;margin-top: 80px;}
                 .menu-bar ul li{margin-bottom: 24px;}
                 .banner-sec h2{padding: 0;font-size: 22px;line-height: 32px;}
                 .menu-bar{margin-bottom: 20px;}
