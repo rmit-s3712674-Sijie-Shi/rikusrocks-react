@@ -217,7 +217,7 @@ header {background: #000000;height: 380px;padding: 60px 0 200px;position: relati
 .profile-img img {    border-radius: 50%;margin-top: 30px;}
 .banner-sec{text-align: center;padding-top: 200px;    padding-bottom: 60px;}
 .banner-sec h2{font-size: 56px;line-height: 67px;color: #959595;letter-spacing: -0.4px;margin-bottom: 60px;    padding: 0 20px;}
- .devider {width: 1px;height: 150px;background: #ccc;display:block;margin: 0 auto;}
+ .devider {width: 1px;height: 50px;background: #ccc;display:block;margin: 0 auto;}
 .menu-bar {margin-bottom: 80px;}
 .menu-bar ul li {display: inline-block;    padding: 0 15px;
     font-size: 20px;}
@@ -281,7 +281,10 @@ h5{font-size: 18px;color: #464646;line-height: 28px;}
 
 
 
-
+.project{
+    align-items: center;
+    
+}
 
 
 .portfolio-section {width:100%; margin:0px; padding:0px  0 60px 0; float:left;

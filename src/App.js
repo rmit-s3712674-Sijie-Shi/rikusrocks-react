@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Index from './components/index'
 import EducationPage from './components/educationPage'
 import ProjectPage from './components/projectPage'
+import Contect from './components/contect'
 import './App.css';
 
 function App() {
@@ -24,6 +25,10 @@ function App() {
         exact
         path='/project'
         render={ () => <ProjectPage/>}/>
+        <Route
+        exact
+        path='/contect'
+        render={ () => <Contect/>}/>
       </Switch>
     </Router>
   );

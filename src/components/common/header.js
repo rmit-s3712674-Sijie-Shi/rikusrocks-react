@@ -14,15 +14,15 @@ let Header = () => {
                                 <a href="https://space.bilibili.com/165825" style={{  }}> <img src={require('../../images/bilibili.png')}></img></a>
                             </li>
                             <li>
-                                <a href=""> <span class="fab fa-linkedin-in"></span></a>
+                                <a href="https://www.linkedin.com/in/%E6%80%9D%E6%8D%B7-%E7%9F%B3-73aa2313a/"> <span class="fab fa-linkedin-in"></span></a>
                             </li>
                             <li>
-                                <a href=""> <span class="fab fa-git"></span></a>
+                                <a href="https://github.com/rmit-s3712674-Sijie-Shi"> <span class="fab fa-git"></span></a>
                             </li>
                         </ul>
                     </div>
                     {/* <img className='rocky' src={require('../../images/rocky.PNG')}/> */}
-                    <a href="#" className="download-sec">Download Resume</a>
+                    <a href="https://tinyurl.com/y5ubl2y2" className="download-sec">Download Resume</a>
 
                 <img className='profile-img' src={require('../../images/avatar.png')} alt="img" />
 

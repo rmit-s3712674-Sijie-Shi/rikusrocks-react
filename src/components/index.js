@@ -13,7 +13,9 @@ let Index = () => {
         <>
             <div>
                 <Header />
+                
             </div>
+            
             <Banner><h2>Hello I am Sijie Shi, 27 years old developer from Melbourne, Australia.</h2></Banner>
             <Skill/>
             <Description/>

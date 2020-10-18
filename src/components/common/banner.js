@@ -29,14 +29,18 @@ let Banner = (props) => {
                                 >Education</Link>
                             </li>
                             <li>
-                                <a href="#contact-sec">Contact</a>
+                            <Link
+                                to={{
+                                    pathname:'/contect'
+                                }}
+                                >Contect</Link>
                             </li>
                         </ul>
                     </div>
 
                     {props.children}
 
-                    <span class="devider"></span>
+                    <span className="devider" ></span>
                 </div>
             </div>
         </>

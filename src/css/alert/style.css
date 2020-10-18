@@ -1,0 +1,24 @@
+.alert{
+    background-color: snow;
+    border-radius: 5%;
+    border: 1px solid #fd4733;
+    font-family: monospace ;
+    
+}
+.alertbtn{
+   font-family: monospace ; margin-left: 35%; margin-top: 100px; border: 2px solid #fd4733;  background: #fd4733;color: #fff; padding: 0px 40px;text-transform: uppercase; border-radius: 0;height: 50px;line-height: 50px;outline: 0;transition:all 0.4s;
+}
+.alertbtn:hover {background: #fff;color:#fd4733;}
+
+.text{
+    font-size: 250%;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+.text1{
+    font-size: 150%;
+    align-items: center;
+    text-align: center;
+    margin-top: 20%;
+}
