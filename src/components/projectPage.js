@@ -13,7 +13,7 @@ let ProjectPage = () => {
             <div className='d'><a href={'https://safe-beach-67493.herokuapp.com/'}><img src={require('../images/project.png')}/></a></div>
             <ul>
                 <li style={{ paddingTop:'20px'}}>
-                <h3>*Notice that this project still under process, it doesn't reflect the finnal result</h3>
+                <h3>*Please note that this project still in progress, it doesn't reflect the finnal result</h3>
                 </li>
                 <li style={{ paddingTop:'20px'}}>
                 <h3>**For better experience, please login with username: leptin password: 000003</h3>
