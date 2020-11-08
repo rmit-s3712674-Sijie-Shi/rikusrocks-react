@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch, HashRouter  } from 'react-route
 import Index from './components/index'
 import EducationPage from './components/educationPage'
 import ProjectPage from './components/projectPage'
-import Contect from './components/contect'
+import Contact from './components/contact'
 import './App.css';
 
 function App() {
@@ -27,8 +27,8 @@ function App() {
         render={ () => <ProjectPage/>}/>
         <Route
         exact
-        path='/contect'
-        render={ () => <Contect/>}/>
+        path='/contact'
+        render={ () => <Contact/>}/>
       </Switch>
     </HashRouter >
   );

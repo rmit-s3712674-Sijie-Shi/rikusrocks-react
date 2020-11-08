@@ -31,9 +31,9 @@ let Banner = (props) => {
                             <li>
                             <Link
                                 to={{
-                                    pathname:'/contect'
+                                    pathname:'/contact'
                                 }}
-                                >Contect</Link>
+                                >Contact</Link>
                             </li>
                         </ul>
                     </div>

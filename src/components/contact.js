@@ -6,7 +6,7 @@ import Http from '../service/http'
 import Alert from './common/alert'
 import Drawer from 'react-drag-drawer'
 
-let Contect = () => {
+let Contact = () => {
     const [name, setName] = React.useState('')
     const [email, setEmail] = React.useState('')
     const [message, setMessage] = React.useState('')
@@ -33,7 +33,7 @@ let Contect = () => {
                                     <input type="text" placeholder="Your Name" onChange={(e) =>{ setName(e.target.value) }} required/>
                                 </li>
                                 <li class="col-md-6">
-                                    <input type="email" placeholder="Your Email Id" onChange={(e) => { setEmail(e.target.value) }} required/>
+                                    <input type="email" placeholder="Your Email Address" onChange={(e) => { setEmail(e.target.value) }} required/>
                                 </li>
                                 <li class="col-md-12">
                                     <textarea placeholder="Your Message" onChange={(e) => { setMessage(e.target.value) }}></textarea>
@@ -58,4 +58,4 @@ let Contect = () => {
     )
 }
 
-export default Contect
+export default Contact
