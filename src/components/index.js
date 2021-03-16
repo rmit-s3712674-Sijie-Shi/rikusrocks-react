@@ -16,7 +16,7 @@ let Index = () => {
                 
             </div>
             
-            <Banner><h2>Hello I am Sijie Shi, a 27 years old developer from Melbourne, Australia.</h2></Banner>
+            <Banner><h2>Hello I am Sijie Shi, a 28 years old developer from Melbourne, Australia.</h2></Banner>
             <Skill/>
             <Description/>
             <Experience/>

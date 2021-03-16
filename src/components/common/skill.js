@@ -10,7 +10,7 @@ let Skill = () => {
             <ul class="skills-set">
                 <li class="indvidual-skill">
                     <div class="skill_title">
-                        <span>React js - 1 year experience</span>
+                        <span>React js and ReactNative - 1+ year experience</span>
                     </div>
                     <div class="barfiller">
                         <span class="fill" style={{width:'90%'}}></span>
@@ -42,7 +42,7 @@ let Skill = () => {
                 </li>
                 <li class="indvidual-skill">
                     <div class="skill_title">
-                        <span>React Native - 1 Year Experience</span>
+                        <span>AWS cetificated solution architect - From 2021</span>
                     </div>
                     <div class="barfiller">
                         <span class="fill" style={{width:'85%'}}></span>

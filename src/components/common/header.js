@@ -22,7 +22,7 @@ let Header = () => {
                         </ul>
                     </div>
                     {/* <img className='rocky' src={require('../../images/rocky.PNG')}/> */}
-                    <a href="https://tinyurl.com/y5jm44b7" className="download-sec">Download Resume</a>
+                    <a href="https://tinyurl.com/jkmu4n92" className="download-sec">Check my Resume</a>
 
                 <img className='profile-img' src={require('../../images/avatar.png')} alt="img" />
 

@@ -11,7 +11,7 @@ let Description = () => {
                 <div class="col-md-6 skill-item">
                     <span><i class="fas fa-desktop"></i> </span>
                     <h3>Web development</h3>
-                    <h6>I have had experience of using bootstrap and implement its designing to React js project. Also I have adequate knowledge of React, including Hooks, Router, and implementing APIs</h6>
+                    <h6>I have had experience of using bootstrap and implement its designing to React js project. Also I have adequate knowledge of React, including Hooks, Router, and implementing APIs. I'm now working on Angular and Rxjs.</h6>
                 </div>
                 <div class="col-md-6 skill-item">
                     <span><i class="far fa-file-code"></i> </span>
