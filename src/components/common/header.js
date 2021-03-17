@@ -14,7 +14,7 @@ let Header = () => {
                                 <a href="https://space.bilibili.com/165825" style={{  }}> <img src={require('../../images/bilibili.png')}></img></a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/%E6%80%9D%E6%8D%B7-%E7%9F%B3-73aa2313a/"> <span class="fab fa-linkedin-in"></span></a>
+                                <a href="https://www.linkedin.com/in/sijie-shi-73aa2313a/"> <span class="fab fa-linkedin-in"></span></a>
                             </li>
                             <li>
                                 <a href="https://github.com/rmit-s3712674-Sijie-Shi"> <span class="fab fa-git"></span></a>
